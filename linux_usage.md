@@ -5,7 +5,7 @@
 * clear : 清除目前螢幕資料
 * cd 進入目錄: cd files
 * mkdir建立目錄: mkdir files
-* 
+* wget --no-check-certificate 連結 : 下載網站中的檔案下來
 
 ####原理與觀念：
 * ping google.com: (1)找到DNS(網域名稱伺服器)，查詢google.com對應的IP位置，再送出網路封包確認遠方機器是否存活
