@@ -11,4 +11,13 @@
 
 ####原理與觀念：
 * ping google.com: (1)找到DNS(網域名稱伺服器)，查詢google.com對應的IP位置，再送出網路封包確認遠方機器是否存活
-* 
+* ifconfig: 檢查目前的網路ＩＰ
+* service ssh start: 啟動sshd伺服器，可以遠端登入
+* netstat -ant: 看主機有開哪些的服務，哪些網路埠口
+
+####Kali VM遠端登入：
+* sudo service ssh start
+* ifconfig 找到VM的IP
+* 用putty遠端登入 (kali/kali)
+* su (轉成root帳號)
+* cd /root/Desktop/
