@@ -21,3 +21,14 @@
 * 用putty遠端登入 (kali/kali)
 * su (轉成root帳號)
 * cd /root/Desktop/
+
+
+####JPEG檔案：
+＊圖片檔：秘密資訊都會藏在metadata中。
+＊圖片檔: 壓縮檔案(zip file)
+* wget --no-check-certificate https://exiftool.org/Image-ExifTool-12.41.tar.gz
+* tar zxvf Image-ExifTool-12.41.tar.gz (解壓縮)
+* cd Image-ExifTool-12.41
+* perl Makefile.PL
+* make test
+* sudo make install
