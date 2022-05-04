@@ -8,6 +8,7 @@
 * wget --no-check-certificate 連結 : 下載網站中的檔案下來
 * cat file: 將檔案內容輸出到螢幕
 * file filename: 知道檔案類型
+* pwd 看到目前的路徑
 
 ####原理與觀念：
 * ping google.com: (1)找到DNS(網域名稱伺服器)，查詢google.com對應的IP位置，再送出網路封包確認遠方機器是否存活
