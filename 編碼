@@ -1,0 +1,8 @@
+#### 編碼:
+base64: cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9
+
+
+
+#### Image內容檢查: 
+* binwalk -B file.jpg (檢查內部檔案組成)
+* binwalk -e file.jpg (取出影像中的壓縮檔)
